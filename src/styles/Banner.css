@@ -1,0 +1,57 @@
+.banner {
+    width: 100%;
+    height: 223px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.banner_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.banner_filter {
+    background-color: #000000;
+    opacity: 0.3;
+    width: 100%;
+    height: 223px;
+    position: absolute;
+    top: 0;
+    border-radius: 25px;
+}
+
+.banner_txt {
+    color: #ffffff;
+    font-size: 48px;
+    position: absolute;
+    left: 273px;
+    top: 78px;
+}
+
+/*---------------------------------------- MEDIAQUERIES ----------------------------------------*/
+/*-------------------------mobile-------------------------*/
+
+@media screen and (max-width:768px) {
+    
+    .banner {
+        height: 111px;
+    }
+
+    .banner_img {
+        border-radius: 10px;
+    }
+
+    .banner_filter {
+        background-color: #000000;
+        height: 111px;
+        border-radius: 10px;
+    }
+
+    .banner_txt {
+        font-size: 24px;
+        left: 20px;
+        top: 31px;
+    }
+}
