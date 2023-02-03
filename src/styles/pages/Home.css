@@ -1,0 +1,37 @@
+.card_home {
+    width: 100%;
+    background-color: #f7f7f7;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.card_home a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+}
+
+.card_home a:hover {
+    box-shadow: 5px 5px 10px #808080;  
+}
+
+/*---------------------------------------- MEDIAQUERIES ----------------------------------------*/
+/*-------------------------mobile-------------------------*/
+
+@media screen and (max-width:768px) {
+
+    .card_home {
+        background-color: unset;
+        padding-top: unset;
+    }
+
+    .card_home a {
+        width: 100%;
+        margin-bottom: unset;
+    }
+}
