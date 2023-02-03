@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Banner.css';
+import '../styles/components/Banner.css';
 
 function Banner({img, text}) {
     return (
