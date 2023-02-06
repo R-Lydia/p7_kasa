@@ -26,8 +26,9 @@
     color: #ffffff;
     font-size: 48px;
     position: absolute;
-    left: 273px;
-    top: 78px;
+    width: 100%;
+    top: 38%; /*78px;*/
+    text-align: center;
 }
 
 /*---------------------------------------- MEDIAQUERIES ----------------------------------------*/
@@ -37,7 +38,7 @@
     
     .banner {
         height: 111px;
-        margin-bottom: unset;
+        margin-bottom: 20px;
     }
 
     .banner_img {
@@ -52,7 +53,9 @@
 
     .banner_txt {
         font-size: 24px;
-        left: 20px;
-        top: 31px;
+        max-width: 222px;
+        left: 5%; /*20px*/
+        top: 23.5%; /*31px*/
+        text-align: unset;
     }
 }

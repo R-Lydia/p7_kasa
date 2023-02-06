@@ -28,10 +28,11 @@
     .card_home {
         background-color: unset;
         padding-top: unset;
+        margin-bottom: unset;
     }
 
     .card_home a {
         width: 100%;
-        margin-bottom: unset;
+        margin-top: unset;
     }
 }
