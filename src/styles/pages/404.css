@@ -1,0 +1,53 @@
+.main_error {
+    color: #ff6060;
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.error_title {
+    font-size: 288px;
+    margin-top: 150px;
+}
+
+.error_text {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 180px;
+}
+
+br {
+    display: none;
+}
+
+.error_backhome {
+    color: #ff6060;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+/*---------------------------------------- MEDIAQUERIES ----------------------------------------*/
+/*-------------------------mobile-------------------------*/
+
+@media screen and (max-width:768px) {
+
+    .main_error {
+        margin-bottom: 235px;
+    }
+
+    .error_title {
+        font-size: 96px;
+    }
+
+    .error_text {
+        font-size: 18px;
+        margin-bottom: 130px;
+    }
+
+    br {
+        display: block;
+    }
+
+    .error_backhome {
+        font-size: 14px; 
+    }
+}
