@@ -10,7 +10,7 @@ function Collapse({title, description}) {
             <div className='collapse_header'>
                 <h2 className='collapse_title'>{title}</h2>
                 <div className={`collapse_fleche ${open}`} onClick={() => setOpen(!open)}>
-                    <img src={fleche} alt="Cliquer pour voir la description"/>
+                    <img src={fleche} alt="Cliquer pour voir la description" />
                 </div>
             </div>
             {
