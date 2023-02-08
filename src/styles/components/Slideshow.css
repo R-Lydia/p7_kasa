@@ -60,6 +60,7 @@
     }
 
     .fleche_prev {
+        top: 46%;
         width: 12px;
         height: 20px;
     }
@@ -69,6 +70,7 @@
     }
 
     .fleche_next {
+        top: 46%;
         width: 12px;
         height: 20px;
     }

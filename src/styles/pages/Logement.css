@@ -1,5 +1,9 @@
-.presentation_location {
-    width: 50%;
+.logement_presentation {
+    display: flex;
+}
+
+.presentation_left {
+    width: 75%;
 }
 
 .logement_title {
@@ -19,13 +23,58 @@
     display: flex;
     flex-wrap: wrap;
 }
+/*-----------------------*/
+
+.presentation_right {
+    width: 25%;
+}
+
+.logement_host {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logement_hostName {
+    width : min-content;
+    color: #ff6060;
+    text-align: end;
+    font-size: 18px;
+}
+
+.logement_hostPicture {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+/*-----------------------*/
+
+.logement_collapses {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapse_description {
+    width: 47%;
+}
+
+.collapse_equipment {
+    width: 47%;
+}
 
 /*---------------------------------------- MEDIAQUERIES ----------------------------------------*/
 /*-------------------------mobile-------------------------*/
 
 @media screen and (max-width:768px) {
 
-    .presentation_location {
+    .logement_presentation {
+        display: unset;
+    }
+
+    .presentation_left {
         width: 100%;
     }
 
@@ -38,7 +87,47 @@
     }
 
     .logement_tags {
-        margin-top: 5px; 
+        margin-top: 5px;
+        margin-bottom: 15px; 
+    }
+/*-----------------------*/
+
+    .presentation_right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
     }
 
+    .logement_host {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .logement_hostName {
+        font-size: 12px;
+    }
+
+    .logement_hostPicture {
+        width: 32px;
+        height: 32px;
+    }
+/*-----------------------*/
+
+    .logement_collapses {
+        display: unset;
+        justify-content: unset;
+    }
+
+    .collapse_description {
+        width: 100%;
+    }
+
+    .collapse_equipment {
+        width: 100%;
+    }
 }

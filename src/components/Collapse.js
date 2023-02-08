@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/components/Collapse.css';
 import fleche from '../assets/fleche.svg';
 
-function Collapse({title, description}) {
+function Collapse({title, content}) {
     // créer hook d'état
     const [open, setOpen] = useState(false);
     return (
@@ -15,7 +15,7 @@ function Collapse({title, description}) {
             </div>
             {
                 // SI =true ---> afficher description
-                open && <p className='collapse_description'>{description}</p>
+                open && <p className='collapse_content'>{content}</p>
             }
         </div>
     );
