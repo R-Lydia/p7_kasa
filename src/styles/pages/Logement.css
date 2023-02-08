@@ -1,0 +1,44 @@
+.presentation_location {
+    width: 50%;
+}
+
+.logement_title {
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.logement_location {
+    color: #ff6060;
+    font-size: 18px;
+}
+
+.logement_tags {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*---------------------------------------- MEDIAQUERIES ----------------------------------------*/
+/*-------------------------mobile-------------------------*/
+
+@media screen and (max-width:768px) {
+
+    .presentation_location {
+        width: 100%;
+    }
+
+    .logement_title {
+        font-size: 18px;
+    }
+
+    .logement_location {
+        font-size: 14px;
+    }
+
+    .logement_tags {
+        margin-top: 5px; 
+    }
+
+}
