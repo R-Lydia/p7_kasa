@@ -1,0 +1,27 @@
+.logement_rating {
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+.rating_star {
+    margin-left: 10px;
+}
+
+/*---------------------------------------- MEDIAQUERIES ----------------------------------------*/
+/*-------------------------mobile-------------------------*/
+
+@media screen and (max-width:768px) {
+
+    .logement_rating {
+        margin-top: unset;
+    }
+
+    .rating_star {
+        width: 15px;
+        height: 15px;
+        margin-left: unset;
+        margin-right: 5px;
+    }
+}
+

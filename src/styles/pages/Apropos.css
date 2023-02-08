@@ -1,0 +1,15 @@
+.apropos_collapses {
+    width: 86%;
+    margin: 0 auto;
+}
+
+/*---------------------------------------- MEDIAQUERIES ----------------------------------------*/
+/*-------------------------mobile-------------------------*/
+
+@media screen and (max-width:768px) {
+    
+    .apropos_collapses {
+        width: 100%;
+        margin: unset;
+    }
+}
