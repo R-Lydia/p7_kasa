@@ -10,7 +10,7 @@ export default function Home() {
     document.title = 'Kasa - Accueil';
     return (
         <main className='main_home'>
-            <Banner img={bannerHome} text='Chez vous, partout et ailleurs'/>
+            <Banner bannerClass='banner banner_home' img={bannerHome} text='Chez vous, partout et ailleurs'/>
             <div className='card_home'>
                 {Logements.map((logement) => 
                     <Link key={logement.id} to={`/Logement/${logement.id}`}>

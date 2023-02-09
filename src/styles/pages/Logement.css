@@ -3,7 +3,7 @@
 }
 
 .presentation_left {
-    width: 75%;
+    width: 78%;
 }
 
 .logement_title {
@@ -26,14 +26,13 @@
 /*-----------------------*/
 
 .presentation_right {
-    width: 25%;
+    min-width: 22%;
 }
 
 .logement_host {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .logement_hostName {
@@ -52,9 +51,9 @@
 /*-----------------------*/
 
 .logement_collapses {
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .collapse_description {
@@ -121,6 +120,7 @@
     .logement_collapses {
         display: unset;
         justify-content: unset;
+    
     }
 
     .collapse_description {
@@ -128,6 +128,7 @@
     }
 
     .collapse_equipment {
-        width: 100%;
+        width: 100%;    
+        margin-bottom: 75px;
     }
 }

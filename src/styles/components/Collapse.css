@@ -26,6 +26,7 @@
   
 .collapse_fleche {
     padding: 15px 20px; 
+    cursor: pointer;
 }
   
 .collapse_fleche.true {

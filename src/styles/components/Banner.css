@@ -16,7 +16,7 @@
     background-color: #000000;
     opacity: 0.3;
     width: 100%;
-    height: 223px;
+    height:100%;
     position: absolute;
     top: 0;
     border-radius: 25px;
@@ -27,7 +27,7 @@
     font-size: 48px;
     position: absolute;
     width: 100%;
-    top: 38%; /*78px;*/
+    top: 38%;
     text-align: center;
 }
 
@@ -47,15 +47,14 @@
 
     .banner_filter {
         background-color: #000000;
-        height: 111px;
         border-radius: 10px;
     }
 
     .banner_txt {
         font-size: 24px;
         max-width: 222px;
-        left: 5%; /*20px*/
-        top: 23.5%; /*31px*/
+        left: 5%;
+        top: 23.5%;
         text-align: unset;
     }
 }

@@ -24,7 +24,11 @@
 /*-------------------------mobile-------------------------*/
 
 @media screen and (max-width:768px) {
-
+    
+    .banner_home {
+        height: 111px;
+    }
+    
     .card_home {
         background-color: unset;
         padding-top: unset;

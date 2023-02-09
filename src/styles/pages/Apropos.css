@@ -1,15 +1,20 @@
 .apropos_collapses {
     width: 86%;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
 }
 
 /*---------------------------------------- MEDIAQUERIES ----------------------------------------*/
 /*-------------------------mobile-------------------------*/
 
 @media screen and (max-width:768px) {
-    
+
+    .banner_apropos {
+        height: 223px;
+    }
+
     .apropos_collapses {
         width: 100%;
-        margin: unset;
+        margin: 0 0 170px 0;
     }
+    
 }
