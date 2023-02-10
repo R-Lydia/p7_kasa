@@ -15,7 +15,7 @@ function Collapse({title, content}) {
             </div>
             {
                 // SI =true ---> afficher description
-                open && <p className='collapse_content'>{content}</p>
+                open && <div className='collapse_content'>{content}</div>
             }
         </div>
     );
