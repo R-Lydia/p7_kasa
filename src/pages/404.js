@@ -1,8 +1,10 @@
+// importer React, Link de React Router et le css du composant
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/pages/404.css';
 
 export default function Error() {
+    // modifier nom de la page dans l'onglet du navigateur
     document.title = 'Kasa - Page introuvable';
     return (
         <main className='main_error'>

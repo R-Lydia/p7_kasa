@@ -1,6 +1,8 @@
+// importer React et le css du composant
 import React from 'react';
 import '../styles/components/Card.css';
 
+// créer les cards
 function Card({id, img, title}) {
     return(
         <div className='card' id={id}>

@@ -1,7 +1,9 @@
+// importer useState de React, l'img fleche et le css du composant
 import React, { useState } from 'react';
-import '../styles/components/Collapse.css';
 import fleche from '../assets/fleche.svg';
+import '../styles/components/Collapse.css';
 
+// créer les collapses sur pages A propos et Logement
 function Collapse({title, content}) {
     // créer hook d'état
     const [open, setOpen] = useState(false);
@@ -14,11 +16,11 @@ function Collapse({title, content}) {
                 </div>
             </div>
             {
-                // SI =true ---> afficher description
+                // =true ---> afficher contenu description
                 open && <div className='collapse_content'>{content}</div>
             }
         </div>
-    );
-}
+    )
+};
 
 export default Collapse;
